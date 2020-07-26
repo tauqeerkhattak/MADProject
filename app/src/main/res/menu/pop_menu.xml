@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/accelerometer_btn"
+        android:orderInCategory="100"
+        android:title="Accelerometer"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/gyroscope_btn"
+        android:orderInCategory="200"
+        android:title="Gyroscope"
+        app:showAsAction="never"></item>
+</menu>
